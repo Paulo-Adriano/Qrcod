@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:rgb(31,49,79) ;
+    --cor2: rgb(104, 119, 141);
+    --cor3: rgb(213, 225, 239);
+    --cor4: rgb(255, 255, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html,body {
+    height: 96vh;
+}
+body {
+    background-color: var(--cor3);
+}
+main {
+    height: 100vh;
+    position: relative;
+}
+.conteudo {
+    width: 335px;
+    height: 500px;
+    background-color: var(--cor4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    border-radius: 15px;
+
+}
+img {
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+.title1 {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: "Outfit", system-ui;
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--cor1);
+
+}
+
+.title2 {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Outfit", system-ui;
+    line-height: 140%;
+    font-size: 15px;
+    color: var(--cor2);
+}
